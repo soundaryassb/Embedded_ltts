@@ -1,3 +1,13 @@
+/**
+ * @file Activity4.c
+ * @author Ganesh Shenoy (ganeshshenoy999@gmail.com)
+ * @brief // ADC values of temperature from temperature sensor (potentiometer) if LED is ON.
+ * @version 0.1
+ * @date 2021-04-30
+ *
+ * @copyright Copyright (c) 2021
+ *
+ */
 #include <avr/io.h>
 #include<util/delay.h>
 #include "Activity3.h"
