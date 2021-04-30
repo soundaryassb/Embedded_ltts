@@ -35,7 +35,7 @@ uint16_t ReadADC(uint8_t ch)
     return(ADC);
 
 }
-void activity2()
+void Activity2()
 {
           InitADC();
           uint16_t temp=0;
