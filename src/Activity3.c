@@ -1,7 +1,7 @@
 /**
  * @file Activity3.c
  * @author Ganesh Shenoy (ganeshshenoy999@gmail.com)
- * @brief // To generate PWM pulses with different duty cycle according to the ADC range 
+ * @brief // To generate PWM pulses with different duty cycle
  * @version 0.1
  * @date 2021-04-30
  *
