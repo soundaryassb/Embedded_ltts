@@ -32,9 +32,9 @@ void activity1()
             // LED set to ON if true
             PORTB |= (1 << PB0);
             _delay_ms(200);
-            activity2();
-            activity3();
-            activity4();
+            Activity2();
+            Activity3();
+            Activity4();
         }
         else
         {
