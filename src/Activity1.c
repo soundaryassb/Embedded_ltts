@@ -10,6 +10,8 @@
  */
 #include <avr/io.h>
 #include <util/delay.h>
+#include "activity3.h"
+#include "activity4.h"
 
 void activity1()
 {
@@ -29,6 +31,9 @@ void activity1()
             // LED set to ON if true
             PORTB |= (1 << PB0);
             _delay_ms(200);
+            activity2();
+            activity3();
+            activity4();
         }
         else
         {
@@ -36,5 +41,6 @@ void activity1()
             PORTB &= ~(1 << PB0);
             _delay_ms(200);
         }
+
     }
 }
