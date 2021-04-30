@@ -7,6 +7,7 @@ BUILD_DIR = Build
 SRC = Seatheater.c\
 src/Activity1.c\
 src/Activity2.c\
+src/Activity3.c\
 
 # All header file paths
 INC = -I inc
