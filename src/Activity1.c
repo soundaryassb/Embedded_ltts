@@ -10,8 +10,9 @@
  */
 #include <avr/io.h>
 #include <util/delay.h>
-#include "activity3.h"
-#include "activity4.h"
+#include "Activity3.h"
+#include "Activity4.h"
+#include "Activity2.h"
 
 void activity1()
 {
