@@ -1,7 +1,7 @@
 /**
  * @file Activity2.c
  * @author Ganesh Shenoy (ganeshshenoy999@gmail.com)
- * @brief // ADC values of temperature from temperature sensor (potentiometer) if LED is ON.
+ * @brief // ADC values of temperature from temperature sensor.
  * @version 0.1
  * @date 2021-04-29
  *
@@ -22,7 +22,7 @@ void InitADC()
 }
 uint16_t ReadADC(uint8_t ch)
 {
-    //Select ADC channel ch must be 0 to 7
+    //Select ADC channel algorithm
     ADMUX&=0xf8;
     ch=ch&0b00000111;
     ADMUX|=ch;
@@ -39,7 +39,7 @@ void Activity2()
 {
           InitADC();
           uint16_t temp=0;
-          temp=ReadADC(0); //select channel 0 and read values
+          temp=ReadADC(0); //select channel 0
           _delay_ms(200);
 
 }
