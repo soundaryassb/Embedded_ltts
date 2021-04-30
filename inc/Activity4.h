@@ -16,7 +16,7 @@ void USARTWriteChar(char data);
  * @brief For defining activity4
  *
  */
-void activity4();
+void Activity4();
 
 #endif // ACTIVITY4_H_INCLUDED
 
