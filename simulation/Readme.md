@@ -2,7 +2,7 @@
 
 |Logic-00|Logic-01|Logic-10|Logic-11|  
 |:--:|:--:|:--:|:--:|  
-|![Logic-00](Logic-00.png)|![Logic-01](Logic-01.png)|![Logic-10](Logic-10.png)|![Logic-11](Logic-11.png)|  
+|![Logic-00](Logic_00.PNG)|![Logic-01](Logic_01.PNG)|![Logic-10](Logic_10.PNG)|![Logic-11](Logic_11.PNG)|  
 |LED OFF|LED OFF|LED OFF|LED ON|   
 
 ## Code 
