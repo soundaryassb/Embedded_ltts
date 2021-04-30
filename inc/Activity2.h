@@ -25,7 +25,7 @@ uint16_t ReadADC(uint8_t ch);
  * @brief Will define activity2
  *
  */
-void activity2();
+void Activity2();
 
 
 
