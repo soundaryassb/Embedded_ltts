@@ -14,22 +14,27 @@
 #include "Activity4.h"
 #include "Activity2.h"
 
+
+
 void Activity1()
+
 {
-    // Direction of ports
+
+
+    // Direction of port
     DDRB |= (1 << PB0);
     DDRD &= ~(1 << PD0);
     DDRD &= ~(1 << PD4);
 
-    // PULL-UP +5V for push-buttons
+    // PULL-UP configuration
     PORTD |= (1 << PD0);
     PORTD |= (1 << PD4);
     while (1)
     {
-        // condition will turn to be true only when both switches are closed
+        // condition to check if both switches are on
         if (!(PIND&(1<<PD0)) && !(PIND&(1<<PD4)))
         {
-            // LED set to ON if true
+            // set LED
             PORTB |= (1 << PB0);
             _delay_ms(200);
             Activity2();
@@ -38,7 +43,7 @@ void Activity1()
         }
         else
         {
-            // LED set to OFF if false.
+            // set off led
             PORTB &= ~(1 << PB0);
             _delay_ms(200);
         }
