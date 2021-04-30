@@ -35,13 +35,13 @@ void USARTWriteChar(char data)
 
 }
 
-void activity4()
+void Activity4()
 {
 
      USARTInit(103); //UBRR Value =(F_CPU/(16* 9600))-1
 
      char temp=0;
-     temp=activity3();
+     temp=Activity3();
 
 
 
