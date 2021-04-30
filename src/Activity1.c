@@ -15,16 +15,16 @@ void activity1()
 {
     // Direction of ports
     DDRB |= (1 << PB0);
-    DDRD &= ~(1 << PD2);
-    DDRD &= ~(1 << PD3);
+    DDRD &= ~(1 << PD0);
+    DDRD &= ~(1 << PD4);
 
     // PULL-UP +5V for push-buttons
-    PORTD |= (1 << PD2);
-    PORTD |= (1 << PD3);
+    PORTD |= (1 << PD0);
+    PORTD |= (1 << PD4);
     while (1)
     {
         // condition will turn to be true only when both switches are closed
-        if (!(PIND&(1<<PD2)) && !(PIND&(1<<PD3)))
+        if (!(PIND&(1<<PD0)) && !(PIND&(1<<PD4)))
         {
             // LED set to ON if true
             PORTB |= (1 << PB0);
