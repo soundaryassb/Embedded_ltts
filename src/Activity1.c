@@ -14,7 +14,7 @@
 #include "Activity4.h"
 #include "Activity2.h"
 
-void activity1()
+void Activity1()
 {
     // Direction of ports
     DDRB |= (1 << PB0);
