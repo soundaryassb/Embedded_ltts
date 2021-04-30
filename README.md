@@ -1,6 +1,5 @@
 # Embedded_C_project
 LTTS embedded c project
-# Embedded_C
 Step-in Embedded C activities.
 
 ## Activity 1
