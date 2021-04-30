@@ -1,6 +1,6 @@
 /**
  * @file Seatheater.c
- * @author Rahul Jha (ganeshshenoy999@gmail.com)
+ * @author Ganesh Shenoy (ganeshshenoy999@gmail.com)
  * @brief 
  * @version 0.1
  * @date 2021-04-28
@@ -23,7 +23,9 @@
 int main()
 {
     // Calling the system_init function which determines the status of LED actuator
-    activity1();
-    activity2();
+    Activity1();
+    Activity2();
+    Activity3();
+    Activity4();
     return 0;
 }
