@@ -15,6 +15,8 @@
 #include <util/delay.h>
 #include "../inc/Activity1.h"
 #include "../inc/Activity2.h"
+#include "../inc/Activity3.h"
+#include "../inc/Activity4.h"
 /**
  * @brief Main function where the code execution starts
  * 
@@ -22,7 +24,7 @@
  */
 int main()
 {
-    // Calling the system_init function which determines the status of LED actuator
+    // Integration of all functions
     Activity1();
     Activity2();
     Activity3();
