@@ -3,6 +3,6 @@
 /**
  * @brief For defining activity3
  */
-char activity3();
+char Activity3();
 
 #endif // ACTIVITY3_H_INCLUDED
