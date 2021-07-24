@@ -1,14 +1,3 @@
-/**
- * @file Seatheater.c
- * @author Ganesh Shenoy (ganeshshenoy999@gmail.com)
- * @brief 
- * @version 0.1
- * @date 2021-04-28
- * 
- * @copyright Copyright (c) 2021
- * 
- */
-
 #define F_CPU 1600000UL
 
 #include <avr/io.h>
