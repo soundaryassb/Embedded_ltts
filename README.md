@@ -1,7 +1,6 @@
 # Embedded_C_project
 LTTS embedded c project
 Step-in Embedded C activities.
-ded_C_project/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=260007/Embedded_C_project&amp;utm_campaign=Badge_Grade)|
 
 ## Activity 1
 
