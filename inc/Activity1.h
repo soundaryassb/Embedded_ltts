@@ -1,13 +1,3 @@
-/**
- * @file Activity1.h
- * @author Ganesh Shenoy(ganeshshenoy999@gmail.com)
- * @brief contains all function prototypes
- * @version 0.1
- * @date 2021-04-28
- *
- * @copyright Copyright (c) 2021
- *
- */
 #ifndef ACTIVITY1_H_INCLUDED
 #define ACTIVITY1_H_INCLUDED
 /**
